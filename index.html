@@ -1,63 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gravatá's Profile</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+    <title>Gravatá's Profile</title>
   </head>
-  <div class="container">
-    <body>
-      <div class="card">
-        <h1>Yuri Gravatá</h1>
-          <img class="img-circle" src="./images/profile.jpg" alt='profile-pic'>
-        <h2>About me</h2>
-          <p>
-            With the best possible starting point, the "Le Wagon full-stack Web Developer bootcamp",
-            I'm always learning new things and becoming each day a better coder!
-          </p>
-          <p>
-            Wanting to talk about books, a good movie or even new projects? Just click belllow:
-          </p>
-          <a href="https://www.linkedin.com/in/yurigravata/" target="_blank" class="button-blue">Let's talk!</a>
+
+  <body>
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/banner.jpg);">
+      <div class="up-container">
+        <h2>Yuri Gravatá</h2>
+        <img class="avatar" src="./images/profile.jpg" alt='profile-pic'>
+        <a href="mailto:ygravata@gmail.com" class="btn btn-flat">Hire me</a>
       </div>
-      <div class="card">
-        <h2>You can't wait?</h2>
-          <ul class="list-inline">
-            <li>
-              <a href="mailto:ygravata@gmail.com" target="_blank">
-                <i class="far fa-envelope"></i>
-              </a>
-            </li>
-            <li>
-              <a href="tel:+5521981708481" target="_blank">
-                <i class="fas fa-phone-square"></i>
-              </a>
-            </li>
-          </ul>
+    </div>
+
+    <div class="about-container">
+      <div class="about-text">
+        <h2 class="title">About me</h2>
+          <p class="paragraph">
+            With a professional background in business, sales and finance, I changed my career path through
+            Le Wagon full-stack Web Developer bootcamp, and now while continuosly studying to
+            become a better a coder, I'm looking forward to new challenges!
+         </p>
       </div>
-      <div class="card">
+      <div class="list-container">
+        <h2>Work with</h2>
+        <ul class="tools">
+          <li class="tools-icons"><i class="fab fa-html5"></i>HTML</li>
+          <li class="tools-icons"><i class="fab fa-css3-alt"></i>CSS</li>
+          <li class="tools-icons"><i class="fab fa-js-square"></i>JavaScript</li>
+          <li class="tools-icons"><i class="far fa-gem"></i>Ruby</li>
+          <li class="tools-icons"><i class="fas fa-database"></i>SQL</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="middle-container">
+      <h2 class="background-title">Background</h2>
+      <div class="cards">
+        <div class="card-product">
+          <div class="card-product-infos">
+            <div class="icons"> <i class="fas fa-desktop"></i></div>
+            <h2>Full-stack Web Developer.</h2>
+            <p>Product description with <strong>relevant info</strong> only.</p>
+          </div>
+        </div>
+        <div class="card-product">
+          <div class="card-product-infos">
+            <div class="icons">
+              <i class="fas fa-chart-line"></i>
+            </div>
+              <h2>Business &</h2>
+              <h2>Finance</h2>
+              <p>Product description with <strong>relevant info</strong> only.</p>
+          </div>
+        </div>
+        <div class="card-product">
+          <div class="card-product-infos">
+            <div class="icons">
+              <i class="far fa-handshake"></i>
+            </div>
+              <h2>Sales.</h2>
+              <p>Product description with <strong>relevant info</strong> only.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
         <h2>Follow me</h2>
-          <ul class="list-inline">
-            <li>
-              <a href="https://github.com/ygravata" target="_blank">
-                <i class="fab fa-github-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://medium.com/@ygravata" target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/ygravata" target="_blank">
-                <i class="fab fa-twitter-square"></i>
-              </a>
-            </li>
-          </ul>
+        <ul class="footer-list">
+          <li>
+            <a href="https://github.com/ygravata" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/yurigravata/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@ygravata" target="_blank">
+              <i class="fab fa-medium"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/ygravata" target="_blank">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-    </body>
-  </div>
+  </body>
 </html>

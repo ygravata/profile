@@ -1,20 +1,40 @@
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 16px;
+#banner{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../images/banner.jpg);
+  background-size:cover;
+  position:relative;
+  height:100vh;
 }
 
-.banner h1 {
-  margin: 0;
+.header{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  transform: translate(0,-50%);
   color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
+  text-shadow: 0px 0.9px 0.9px rgba(255, 255, 255, 1);
+  word-spacing: 0.2em;
+  margin-top: 32px;
 }
 
-.banner p {
+.header h2{
+  padding-top: 32px;
+  font-size: 40px;
+}
+
+.header p{
   font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+#content{
+  padding:100px 50px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+}
+
+#content h2{
+  margin:0px 0px 30px 0px;
 }

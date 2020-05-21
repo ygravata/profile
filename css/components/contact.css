@@ -1,0 +1,30 @@
+#carousel-style{
+width: 400px;
+height: 200px;
+border-radius: 4px;
+}
+
+.contact {
+/*  width: 700px;
+  margin: 0 auto;
+*/  text-align: center;
+  padding:40px 0;
+  background-color: white;
+  color: #0c1821;
+}
+
+
+.contact-title{
+  margin:0px 0px 30px 0px;
+  font-size: 28px;
+  display:inline-block;
+  border-bottom:1px solid rgba(12, 24, 33, 0.9);
+  padding-bottom:8px;
+  width: 160px;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 180px;
+}

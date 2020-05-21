@@ -1,16 +1,26 @@
-.skills {
-  width: 700px;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom:40px;
-  color: #033F63;
-}
-
 .skill-container {
   display: flex;
   justify-content: space-around;
-
+  padding: 0 180px;
 }
+.skills {
+/*  width: 700px;
+  margin: 0 auto;
+*/  text-align: center;
+  padding:40px 0;
+  color: white;
+  background-color: #0c1821;
+}
+
+.skill-title{
+  margin:0px 0px 30px 0px;
+  font-size: 28px;
+  display:inline-block;
+  border-bottom:1px solid rgba(255, 255, 255, 0.9);
+  padding-bottom:8px;
+  width: 160px;
+}
+
 
 .skill-card {
   position: relative;
@@ -20,12 +30,12 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #3E5C76;
   background-clip: border-box;
-  border: 1px solid  rgba(3, 63, 99, 0.9);
+  border: 1px solid  rgba(255, 255, 255, 0.8 );
   border-radius: 4px;
-  width:218px;
-  margin: 0px 20px;
+  width:200px;
+  margin: 0px 10px;
 }
 
 .list-inline {

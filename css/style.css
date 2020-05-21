@@ -5,24 +5,28 @@
 @import url("components/avatar.css");
 @import url("components/banner.css");
 @import url("components/footer.css");
+@import url("components/contact.css");
 @import url("components/navbar.css");
 @import url("components/skill.css");
+@import url("components/carousel.css");
 
 body {
   font-family: 'Titillium Web', sans-serif;
+  background-color: rgb(27, 93, 125);
 }
 
 #about{
   padding:40px 60px;
   text-align:center;
-  color: #033F63;
+  color: rgba(12, 24, 33);
+  background-color: white;
 }
 
 .section-title{
   margin:0px 0px 30px 0px;
   font-size: 28px;
   display:inline-block;
-  border-bottom:1px solid rgba(3, 63, 99, 0.9);
+  border-bottom:1px solid rgba(12, 24, 33, 0.9);
   padding-bottom:8px;
   width: 160px;
 }

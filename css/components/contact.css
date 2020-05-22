@@ -28,3 +28,22 @@ border-radius: 4px;
   justify-content: space-around;
   padding: 0 180px;
 }
+
+.contact-text{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding-inline-start: 0px;
+    margin: 0px 0px;
+}
+
+.contact-text>p{
+      margin-top: 0;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+.contact-item{
+/*  display: flex;
+*/  margin: 16px;
+}

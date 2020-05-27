@@ -11,7 +11,7 @@
   display:inline-block;
   border-bottom:1px solid rgba(255, 255, 255, 0.9);
   padding-bottom:8px;
-  width: 160px;
+  width: 100px;
 }
 
 .skill-content {
@@ -34,7 +34,6 @@
   background-clip: border-box;
   border: 1px solid  rgba(255, 255, 255, 0.8 );
   border-radius: 4px;
-  width:200px;
   margin: 0px 10px;
 }
 
@@ -72,5 +71,6 @@
 
 .skill-icon {
   color:white;
-  font-size: 40px;
+  font-size: 60px;
+  margin:12px;
 }

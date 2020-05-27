@@ -1,7 +1,7 @@
 #footer{
   padding:20px 0;
   text-align:center;
-  background:#ddd;
+  background:#EFF1F3;
 }
 
 
@@ -22,4 +22,15 @@
   font-size: 16px;
   display:inline-block;
   /*width: 160px;*/
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #0C1821;
+  font-size:28px;
+  align-self: center;
+}
+
+.icon-link:hover {
+  color: #424B54;
 }

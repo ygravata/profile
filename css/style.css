@@ -2,51 +2,16 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap");
 
-@import url("components/avatar.css");
+@import url("components/about.css");
 @import url("components/banner.css");
-@import url("components/footer.css");
-@import url("components/contact.css");
-@import url("components/navbar.css");
-@import url("components/skill.css");
 @import url("components/carousel.css");
+@import url("components/contact.css");
+@import url("components/footer.css");
+@import url("components/projects.css");
+@import url("components/font-mfizz.css");
+@import url("components/skill.css");
 
 body {
   font-family: 'Titillium Web', sans-serif;
   background-color: rgb(27, 93, 125);
-}
-
-#about{
-  padding:40px 60px;
-  text-align:center;
-  color: rgba(12, 24, 33);
-  background-color: white;
-}
-
-.section-title{
-  margin:0px 0px 30px 0px;
-  font-size: 28px;
-  display:inline-block;
-  border-bottom:1px solid rgba(12, 24, 33, 0.9);
-  padding-bottom:8px;
-  width: 160px;
-}
-
-.about-content p{
-  width: 600px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#footer-div{
-  padding: 6px 0px;
-  text-align: center;
-  background: #ddd;
-}
-
-
-.footer-title{
-  margin:20px 0px 10px 0px;
-  font-size: 16px;
-  display:inline-block;
-  /*width: 160px;*/
 }

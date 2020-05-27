@@ -1,12 +1,5 @@
-.skill-container {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 180px;
-}
 .skills {
-/*  width: 700px;
-  margin: 0 auto;
-*/  text-align: center;
+  text-align: center;
   padding:40px 0;
   color: white;
   background-color: #0c1821;
@@ -21,6 +14,11 @@
   width: 160px;
 }
 
+.skill-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 180px;
+}
 
 .skill-card {
   position: relative;
@@ -30,7 +28,7 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #627C85;
+  background-color: rgba(12, 24, 33);
   color: white;
   font-weight: 400;
   background-clip: border-box;
@@ -40,12 +38,7 @@
   margin: 0px 10px;
 }
 
-.list-inline {
-  text-align: center;
-  align-self: center;
-}
-
-.skill-content{
+.skill-card-content{
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   min-height: 1px;
@@ -53,18 +46,31 @@
   align-content: center;
 }
 
-.skill-content > .list-inline {
+.skill-card-list {
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.skill-card-content > .skill-card-list {
   margin-bottom: 0px;
 }
 
 
 
-/*.list-inline {
-    list-style: none;
-    -moz-column-count: 4;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 20px;
-    column-count: 3;
-    column-gap: 20px;
-}*/
+
+.skill-content > .list-inline {
+  margin-bottom: 0px;
+}
+
+.list-inline {
+  text-align: center;
+  align-self: center;
+}
+
+.skill-icon {
+  color:white;
+  font-size: 40px;
+}

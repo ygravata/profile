@@ -2,6 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-mfizz/font-mfizz.css">
     <link rel="stylesheet" type="text/css" href="css/style.css"></link>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
@@ -9,37 +10,9 @@
     <title>Yuri Gravatá's Profile</title>
   </head>
   <body>
-<!--     <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-      <a class="navbar-brand" href="#">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
-    </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-
- -->    <div id="banner">
-      <div class="header">
-        <img class="avatar" src="./images/profile.jpg" alt='profile-pic'>
+   <div id="banner">
+      <div class="banner-content">
+        <img class="banner-avatar" src="./images/profile.jpg" alt='profile-pic'>
         <h2>Hi! I'm Yuri Gravatá</h2>
         <p>Full-Stack Web Developer</p>
       </div>
@@ -47,7 +20,7 @@
 
     <div id="about">
       <div class="about-content">
-        <h2 class="section-title"> About Me</h2>
+        <h2 class="about-section-title"> About Me</h2>
         <p> With a professional background in business, sales and finance, I changed my career path through
                 Le Wagon Full-Stack Web Developer bootcamp, number one on switch, and now while continuosly studying to
                 become a better a coder, I'm looking forward to new challenges!
@@ -57,35 +30,39 @@
 
     <div class="skills">
       <h2 class="skill-title" style="width: 100px;">Skills</h2>
-      <div class="skill-container">
+      <div class="skill-content">
+
         <div class="skill-card">
-          <div class="skill-content">
-            <ul class="list-inline">
-              <li>Ruby on Rails </li>
-              <li>Ruby </li>
-              <li>HTML </li>
-              <li>CSS </li>
-              <li>ES6 Javascript </li>
+          <div class="skill-card-content">
+            <ul class="skill-card-list">
+              <i class="icon-ruby-on-rails-alt skill-icon"></i>
+              <i class="icon-ruby skill-icon"></i>
+              <i class="fab fa-html5 skill-icon"></i>
+              <i class="fab fa-css3-alt skill-icon"></i>
+              <i class="icon-sass skill-icon"></i>
+              <i class="icon-jquery skill-icon"></i>
+              <i class="fab fa-js-square skill-icon"></i>
             </ul>
           </div>
         </div>
         <div class="skill-card">
-          <div class="skill-content">
-            <ul class="list-inline">
-              <li>APIs </li>
-              <li>JSON Scraping </li>
-              <li>Bootstrap </li>
-              <li>UI Design </li>
+          <div class="skill-card-content">
+            <ul class="skill-card-list">
+              <i class="fab fa-bootstrap"></i>
+              <i class="fas fa-database"></i>
+              <i class="icon-postgres" style="color:white; font-size: 40px;"></i>
               <li>SQL </li>
-              <li>PostgreSQL </li>
+              <li>UI Design </li>
+<a href="files/teste.PDF" download="teste" target="_blank" >Download Link</a>
             </ul>
           </div>
         </div>
         <div class="skill-card">
-          <div class="skill-content">
-            <ul class="list-inline">
-              <li>Git </li>
-              <li>Github </li>
+          <div class="skill-card-content">
+            <ul class="skill-card-list">
+              <i class="icon-git skill-icon"></i>
+              <i class="fab fa-github skill-icon"></i>
+              <i class="icon-heroku skill-icon"></i>
               <li>Relational databases </li>
               <li>Technical Workflow </li>
               <li>TDD</li>
@@ -96,7 +73,8 @@
     </div>
 
     <div class="projects">
-    <h2 class="skill-title" style="width: 120px;">Projects</h2>
+    <h2 class="project-title" style="width: 120px;">Projects</h2>
+
     <div class="carousel-container">
       <div id="carousel-style" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -138,7 +116,7 @@
     <div class="contact">
       <h2 class="contact-title" style="width: 120px;">Contact</h2>
       <div class="contact-container">
-        <ul class="list-inline" style="display:flex; align-items: center;">
+        <ul class="contact-list" style="display:flex; align-items: center;">
           <div class="contact-item">
             <i class="fas fa-map-marker-alt" style="font-size:28px; align-self: center; margin-"></i></li>
             <ul class="contact-text">
@@ -167,9 +145,9 @@
       </div>
     </div>
 
-    <div id="footer-div">
+    <div id="footer">
       <h2 class="footer-title" style="width: 120px;">Follow me</h2>
-        <div class="contact-item">
+        <div class="footer-content">
            <a href="https://github.com/ygravata" target="_blank" style="text-decoration: none; color: inherit;">
               <i class="fab fa-github-square" style="font-size:28px; align-self: center;"></i></li>
             </a>

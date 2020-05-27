@@ -1,5 +1,25 @@
 #footer{
-  padding:30px 0px;
+  padding:20px 0;
   text-align:center;
   background:#ddd;
+}
+
+
+.section-title{
+  margin:0px 0px 30px 0px;
+  font-size: 28px;
+  display:inline-block;
+  border-bottom:1px solid rgba(12, 24, 33, 0.9);
+  padding-bottom:8px;
+  width: 160px;
+}
+
+.footer-content{
+}
+
+.footer-title{
+  margin:0px 0px 10px 0px;
+  font-size: 16px;
+  display:inline-block;
+  /*width: 160px;*/
 }

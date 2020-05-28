@@ -17,8 +17,8 @@
 .skill-content {
   display: flex;
   justify-content: space-around;
-  padding: 0 180px;
-}
+/*  padding: 0 180px;
+*/}
 
 .skill-card {
   position: relative;
@@ -57,7 +57,10 @@
   margin-bottom: 0px;
 }
 
-
+.skill-icon-content {
+  justify-content: center;
+  text-align: center;
+}
 
 
 .skill-content > .list-inline {

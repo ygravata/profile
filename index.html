@@ -10,30 +10,32 @@
     <title>Yuri Gravatá's Profile</title>
   </head>
   <body>
-   <div id="banner">
-      <div class="banner-content">
-        <img class="banner-avatar" src="./images/profile.jpg" alt='profile-pic'>
-        <h2>Hi! I'm Yuri Gravatá</h2>
-        <p>Full-Stack Web Developer</p>
+    <div class="container">
+
+      <div id="banner">
+        <div class="banner-content">
+          <img class="banner-avatar" src="./images/profile.jpg" alt='profile-pic'>
+          <h2>Hi! I'm Yuri Gravatá</h2>
+          <p>Full-Stack Web Developer</p>
+        </div>
       </div>
-    </div>
 
-    <div id="about">
-      <div class="about-content">
-        <h2 class="about-section-title"> About Me</h2>
-        <p> With a professional background in business, sales and finance, I changed my career path through
-                Le Wagon Full-Stack Web Developer bootcamp, number one on switch, and now while continuosly studying to
-                become a better a coder, I'm looking forward to new challenges!
-        </p>
+      <div id="about">
+        <div class="about-content">
+          <h2 class="about-section-title"> About Me</h2>
+          <p> With a professional background in business, sales and finance, I changed my career path through
+                  Le Wagon Full-Stack Web Developer bootcamp, number one on switch, and now while continuosly studying to
+                  become a better a coder, I'm looking forward to new challenges!
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="skills">
-      <h2 class="skill-title">Skills</h2>
-      <div class="skill-content">
+      <div class="skills">
+        <h2 class="skill-title">Skills</h2>
+        <div class="skill-content">
 
-        <div class="skill-card">
-          <div class="skill-card-content">
+          <div class="skill-card">
+            <div class="skill-card-content">
               <i class="icon-ruby-on-rails-alt skill-icon"></i>
               <i class="icon-ruby skill-icon"></i>
               <i class="fab fa-html5 skill-icon"></i>
@@ -41,118 +43,113 @@
               <i class="icon-sass skill-icon"></i>
               <i class="fab fa-js-square skill-icon"></i>
               <i class="icon-bootstrap skill-icon"></i>
-          </div>
-          <div class="skill-card-content">
+            </div>
+            <div class="skill-card-content">
               <i class="icon-git skill-icon"></i>
               <i class="fab fa-github skill-icon"></i>
               <i class="icon-heroku skill-icon"></i>
               <i class="fas fa-database skill-icon"></i>
               <i class="icon-jquery skill-icon"></i>
               <i class="icon-postgres skill-icon"></i>
+            </div>
           </div>
         </div>
       </div>
 
-      </div>
-    </div>
+      <div class="projects">
+        <h2 class="project-title">Projects</h2>
 
-    <div class="projects">
-    <h2 class="project-title">Projects</h2>
-
-    <div class="carousel-container">
-      <div id="carousel-style" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
+        <div class="carousel-container">
+          <div id="carousel-style" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
               <li data-target="#carousel-style" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-style" data-slide-to="1"></li>
               <li data-target="#carousel-style" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
+            </ol>
+            <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img class="d-block " src="https://placeimg.com/1080/500/animals" alt="First slide" id="carousel-image">
+                <img class="d-block " src="https://placeimg.com/1080/500/animals" alt="First slide" id="carousel-image">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><a href="https://gravata-cocktails.herokuapp.com/" target="_blank" style="text-decoration: none; color: inherit;">Mr. Cocktail</a></h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block " src="https://images.unsplash.com/photo-1519181236443-b175d4c3ca1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=500"alt="Second slide" id="carousel-image">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><a href="https://greenstore354.herokuapp.com/" target="_blank" style="text-decoration: none; color: inherit;">Greenstore</a></h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block " src="https://placeimg.com/1080/500/nature" alt="Third slide" id="carousel-image">
                   <div class="carousel-caption d-none d-md-block">
-                      <h5><a href="https://gravata-cocktails.herokuapp.com/" target="_blank" style="text-decoration: none; color: inherit;">Mr. Cocktail</a></h5>
+                    <h5><a href="" target="_blank" style="text-decoration: none; color: inherit;">Replai</a></h5>
                   </div>
               </div>
-              <div class="carousel-item">
-                  <img class="d-block " src="https://images.unsplash.com/photo-1519181236443-b175d4c3ca1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=500"alt="Second slide" id="carousel-image">
-                   <div class="carousel-caption d-none d-md-block">
-                      <h5><a href="https://greenstore354.herokuapp.com/" target="_blank" style="text-decoration: none; color: inherit;">Greenstore</a></h5>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block " src="https://placeimg.com/1080/500/nature" alt="Third slide" id="carousel-image">
-                   <div class="carousel-caption d-none d-md-block">
-                      <h5><a href="" target="_blank" style="text-decoration: none; color: inherit;">Replai</a></h5>
-                  </div>
-              </div>
-          </div>
-          <a class="carousel-control-prev" href="#carousel-style" role="button" data-slide="prev">
+            </div>
+            <a class="carousel-control-prev" href="#carousel-style" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel-style" role="button" data-slide="next">
+            </a>
+            <a class="carousel-control-next" href="#carousel-style" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
-          </a>
-      </div>
-    </div>
-      <a href="files/teste.PDF" class="contact-icon-clickable" style="font-size:22px;" download="teste" target="_blank" >
-        <i class="far fa-file"></i>
-        <p>My resume</p>
-      </a>
-    </div>
-    <div class="contact">
-      <h2 class="contact-title">Contact me!</h2>
-      <div class="contact-container">
-        <ul class="contact-list" style="display:flex; align-items: center;">
-          <div class="contact-item contact-icon">
-            <i class="fas fa-map-marker-alt"></i></li>
-            <ul class="contact-text">
-              <li>Rio de Janeiro, Brasil</li>
-            </ul>
-          </div>
-
-          <div class="contact-item contact-icon-clickable">
-            <a href="mailto:yuri@gravata.dev" target="_blank" style="text-decoration: none; color: inherit;">
-              <i class="far fa-envelope"></i></li>
-              <ul class="contact-text">
-                <li>yuri@gravata.dev</li>
-              </ul>
             </a>
           </div>
-
-          <div class="contact-item  contact-icon-clickable">
-            <a href="https://meetings.hubspot.com/ygravata" target="_blank" style="text-decoration: none; color: inherit;">
-              <i class="far fa-calendar-alt"></i></li>
-              <ul class="contact-text">
-                <li>Book a meeting</li>
-              </ul>
-            </a>
-          </div>
-        </ul>
-      </div>
-    </div>
-
-
-    <div id="footer">
-      <h2 class="footer-title">Follow me</h2>
-        <div class="footer-content">
-           <a href="https://github.com/ygravata" target="_blank">
-              <i class="fab fa-github-square icon-link" ></i>
-            </a>
-             <a href="https://medium.com/@ygravata" target="_blank">
-              <i class="fab fa-medium icon-link"></i>
-            </a>
-             <a href="https://twitter.com/ygravata" target="_blank">
-              <i class="fab fa-twitter-square icon-link"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/yurigravata/" target="_blank">
-              <i class="fab fa-linkedin icon-link"></i>
-            </a>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <a href="files/teste.PDF" class="contact-icon-clickable" style="font-size:22px;" download="teste" target="_blank" >
+          <i class="far fa-file"></i>
+          <p>My resume</p>
+        </a>
+      </div>
+
+      <div class="contact">
+        <h2 class="contact-title">Contact me!</h2>
+        <div class="contact-container">
+          <ul class="contact-list" style="display:flex; align-items: center;">
+            <div class="contact-item contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+              <ul class="contact-text">
+                <li>Rio de Janeiro, Brasil</li>
+              </ul>
+            </div>
+            <div class="contact-item contact-icon-clickable">
+              <a href="mailto:yuri@gravata.dev" target="_blank" style="text-decoration: none; color: inherit;">
+                <i class="far fa-envelope"></i>
+                <ul class="contact-text">
+                  <li>yuri@gravata.dev</li>
+                </ul>
+              </a>
+            </div>
+            <div class="contact-item  contact-icon-clickable">
+              <a href="https://meetings.hubspot.com/ygravata" target="_blank" style="text-decoration: none; color: inherit;">
+                <i class="far fa-calendar-alt"></i>
+                <ul class="contact-text">
+                  <li>Book a meeting</li>
+                </ul>
+              </a>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div id="footer">
+        <h2 class="footer-title">Follow me</h2>
+        <div class="footer-content">
+          <a href="https://github.com/ygravata" target="_blank">
+            <i class="fab fa-github-square icon-link" ></i>
+          </a>
+          <a href="https://medium.com/@ygravata" target="_blank">
+            <i class="fab fa-medium icon-link"></i>
+          </a>
+          <a href="https://twitter.com/ygravata" target="_blank">
+            <i class="fab fa-twitter-square icon-link"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yurigravata/" target="_blank">
+            <i class="fab fa-linkedin icon-link"></i>
+          </a>
+        </div>
+      </div>
+
+   </div>
   </body>
 </html>
